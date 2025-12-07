@@ -1,0 +1,17 @@
+{
+  "name": "basic-crud-app",
+  "version": "1.0.0",
+  "description": "A simple CRUD application made using node, express and mysql database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tejasshrivastava",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11"
+  }
+}
