@@ -10,10 +10,10 @@ CREATE TABLE `employee_db`.`employees` (
 -- insert 4 employee
 LOCK TABLES `employee_db`.`employees` WRITE;
 INSERT INTO `employee_db`.`employees` VALUES 
-(1,'Samantha Mackenzie','EMP97',80000),
-(2,'Layla Benn','EMP91',92000),
-(3,'Luis Alberto','EMP99',84000),
-(4,'Rishaan','EMP70',85000);
+(1,'Samantha Prabhu','EMP97',80000),
+(2,'Layla Walizai','EMP91',92000),
+(3,'Tejas Shrivastava','EMP99',84000),
+(4,'Rishaan Kishan','EMP70',85000);
 UNLOCK TABLES;
 
 -- stored procedure - execute withing create procedure window
@@ -38,4 +38,5 @@ BEGIN
 	END IF;
     
     SELECT ROW_COUNT() AS 'affectedRows';
+
 END
